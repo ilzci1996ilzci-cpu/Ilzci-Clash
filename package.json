@@ -1,0 +1,36 @@
+{
+  "name": "wormgpt-ultimate-card-checker",
+  "version": "1.0.0",
+  "description": "WormGPT Ultimate Card Checker API with 3DS Bypass and React Native Integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "install-browsers": "npx playwright install chromium",
+    "test": "node -e \"console.log('Testing API connectivity...');\""
+  },
+  "keywords": [
+    "playwright",
+    "card-checker",
+    "3ds-bypass",
+    "stripe",
+    "whop",
+    "automation",
+    "express",
+    "api"
+  ],
+  "author": "Black Beard",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.45.0",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
